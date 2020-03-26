@@ -16,7 +16,7 @@
 // all non-constant, initialized data goes here
 
 .align 4
-.text
+.section .text
 main: 	push {lr} // save link register, this is one of many ways this can be done
 
 	// assembly program here
