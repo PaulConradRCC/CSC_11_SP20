@@ -1,3 +1,4 @@
+// assemble: g++ while_loop_demo.s -g -o while_loop_demo
 .global main
 
 .align 4
