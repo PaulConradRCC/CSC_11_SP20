@@ -31,9 +31,12 @@ int main()
 	scanf("%100[^\n]", &key);
 	klen = string_length(key);
 
+	printf("------------------------------------------------------------\nOriginal message:\n");
 	display_message(message,mlen);
+	printf("------------------------------------------------------------\nEncrypted message:\n");
 	encrypt(message,mlen,key,klen);
 	display_message(message,mlen);
+	printf("------------------------------------------------------------\nDecrypted message:\n");
 	decrypt(message,mlen,key,klen);
 	display_message(message,mlen);
 
